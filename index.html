@@ -1,32 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="shortcut icon" href="jc.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="jc.ico" type="image/x-icon">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Cidade de ijuí</title>
     <style>
-        body{
-            background-color: rgb(199, 202, 206);
-        }
-        mark{
-            background-color: rgb(63, 241, 182);
+        .espaco-externo{
+            margin: 30px;
         }
     </style>
-    <title>Cidade de ijuí</title>
 </head>
+
 <body>
-    <h1>Nesta matéria vamos falara sobre a neve na cidade </h1>
+    <h1  class="blue-text text-darken-2">Nesta matéria vamos falara sobre a neve na cidade </h1>
     <hr>
-    <h2>Nas imagens você vai ver a <big>neve</big> que caiu na cidade na decáda de 60 </h2>
-    <img src="imagensneve/ijuineve.jpg" alt="Neve em ijui">
-    <p>Aqui vemos duas <small>crianças</small> registando o momento marcante quem aconteceu em <mark>1965</mark> na cidade.&#x2744; &#x2744;&#x2744;<br>
-    Achegada da neve na cidade foi um dos maomentaos mais <ins>incriveis</ins> da epóca,e até o momento pesente <del>nao </del>tivemos mais indicios de <mark>neve</mark> na cidade</p>
+    <h2 class="">Nas imagens você vai ver a <big>neve</big> que caiu na cidade na decáda de 60 </h2>
+    <div class="center">
+        <img class="z-depth-5" src="imagensneve/ijuineve.jpg" alt="Neve em ijui">
+    </div>
+    
+    <p class="center-align">Aqui vemos duas <small>crianças</small> registando o momento marcante quem aconteceu em <mark>1965</mark> na
+        cidade.&#x2744; &#x2744;&#x2744;<br>
+        Achegada da neve na cidade foi um dos maomentaos mais <ins>incriveis</ins> da epóca,e até o momento pesente
+        <del>nao </del>tivemos mais indicios de <mark>neve</mark> na cidade</p>
     <hr>
     <img src="imagensneve/mariafumaçaijui.jpg" alt="Maria fumaça em ijui">
-  <p> Nesta outra imagem vemos a passagem da maria fumaça no momento da <mark>neve</mark>,uma imagem muito linda que aconteceu na época.
-    <hr>
-  <br> A cidade esta localizada: <address>Ijui-RS</address>
-  <p>Para mais informações clique em <a href="https://www.ijui.rs.gov.br/">Governo de Ijuí-rs</a> </p>
- </p>
-</body>
+    <p> Nesta outra imagem vemos a passagem da maria fumaça no momento da <mark>neve</mark>,uma imagem muito linda que
+        aconteceu na época.
+        <hr>
+        <br> A cidade esta localizada:
+    <address>Ijui-RS</address>
+    <p>Para mais informações clique em <a href="https://www.ijui.rs.gov.br/">Governo de Ijuí-rs</a> </p>
+    </p>
+    <div class="center espaco-externo">
+        <button class=" blue btn" onclick="M.toast({html: 'meu nome é Jeferson'})"><i class="material-icons right">alarme</i>Pipoca</button>
+
+    </div>
+
+</body> 
+
 </html>
